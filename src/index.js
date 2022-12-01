@@ -1,1 +1,3 @@
-console.log("uh oh");
+import loadContent from './initial-load.js';
+
+loadContent();
