@@ -1,4 +1,16 @@
 import navBar from "./nav";
+import pizzaPic from "./pizza.jpg";
+//http://www.barbaracooks.com/recipe/pretty-pretty-purslane-pizza/
+import padThaiPic from "./pad-thai.jpeg"
+//https://cafedelites.com/pad-thai/
+import steakPic from "./steak.jpeg";
+//https://iamafoodblog.com/how-to-cook-steak/
+import pastaPic from "./pasta.jpeg";
+//https://www.bbcgoodfood.com/recipes/pasta-alla-vodka
+import pbjPic from "./pbj.jpeg";
+//https://www.npr.org/sections/thesalt/2017/03/25/521256918/the-pregame-pb-j-how-the-comfort-food-became-the-nbas-recipe-for-success
+import popTartPic from "./pop-tart.jpeg";
+//https://beplantwell.com/vegan-strawberry-pop-tarts/
 
 export default function menuPage() {
     const content = document.getElementById('content');

@@ -7,8 +7,10 @@
 .menuItemContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .menuItem {
     border: 5px solid black;
+    height: 200px;
 }
