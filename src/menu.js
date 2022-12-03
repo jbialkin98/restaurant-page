@@ -33,6 +33,7 @@ export default function menuPage() {
     menuItemOneTitle.textContent = "Menu Item One Title";
     const menuItemOneText = document.createElement('p');
     menuItemOneText.textContent = "Menu Item One Text";
+    menuItemOne.style.backgroundImage = pizzaPic;
     menuItemOne.append(menuItemOneTitle, menuItemOneText);
 
     const menuItemTwo = document.getElementById('1');
@@ -40,6 +41,7 @@ export default function menuPage() {
     menuItemTwoTitle.textContent = "Menu Item Two Title";
     const menuItemTwoText = document.createElement('p');
     menuItemTwoText.textContent = "Menu Item Two Text";
+    menuItemTwo.style.backgroundImage = padThaiPic;
     menuItemTwo.append(menuItemTwoTitle, menuItemTwoText);
 
     const menuItemThree = document.getElementById('2');
