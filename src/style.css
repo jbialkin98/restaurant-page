@@ -13,4 +13,7 @@
 .menuItem {
     border: 5px solid black;
     height: 200px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

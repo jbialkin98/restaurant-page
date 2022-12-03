@@ -16,4 +16,18 @@ export default function navBar() {
     contactButton.id = 'contact';
 
     navBar.append(homeButton, menuButton, contactButton);
+
+    // buttons.forEach(btn => btn.addEventListener('click', () => {
+    //     console.log(btn);
+    //     while (content.firstElementChild) {
+    //         content.firstElementChild.remove();
+    //     }
+    //     if (btn.id === 'home') {
+    //         homePage();
+    //     } else if (btn.id === 'contact') {
+    //         contactPage();
+    //     } else if (btn.id === 'menu') {
+    //         menuPage();
+    //     }
+    // }));
 }

@@ -10,6 +10,7 @@ const content = document.getElementById('content');
 const buttons = document.querySelectorAll('button');
 
 buttons.forEach(btn => btn.addEventListener('click', () => {
+    console.log(btn);
     while (content.firstElementChild) {
         content.firstElementChild.remove();
     }
