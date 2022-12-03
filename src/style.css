@@ -3,3 +3,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.menuItemContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menuItem {
+    border: 5px solid black;
+}
